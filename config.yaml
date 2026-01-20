@@ -1,0 +1,22 @@
+data_root: "/bio/Alan/z_dataset_compilation/dataset_256"
+save_dir: "./checkpoints"
+log_dir: "./experiments"
+
+epochs: 100
+batch_size: 16           
+num_workers: 8
+
+optimizer:
+  name: "Adam"          
+  lr: 1.0e-4            
+  weight_decay: 1.0e-5
+
+scheduler:
+  name: "StepLR"        
+  step_size: 20         
+  gamma: 0.5   
+
+loss:
+  lambda_1: 1.0        
+  lambda_2: 5.0         
+  lambda_3: 2.0 

@@ -1,0 +1,6 @@
+escan_results/
+experiments/
+./training_with_logs.py
+
+.DS_Store/git 
+dataset_256_1BA001_reduced_test/
