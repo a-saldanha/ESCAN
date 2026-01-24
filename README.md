@@ -133,7 +133,9 @@ If you find this work useful in your research, please consider citing our paper:
   journal={Journal Name},
   year={2024}
 } -->
-```
+
 
 ## 📧 Contact
 For any questions, feel free to open an issue or contact alan@a-saldanha.me
+
+
